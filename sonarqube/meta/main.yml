@@ -1,7 +1,7 @@
 galaxy_info:
-  author: your name
-  description: your role description
-  company: your company (optional)
+  author: Aakash
+  description: Ansible role for installation of sonarqube with postgres as databse
+  company: Opstree
 
   # If the issue tracker for your role is not on github, uncomment the
   # next line and provide a value
