@@ -65,8 +65,7 @@
         - "fs.file-max=131072"
 
     - name: Reload sysctl settings
-      ansible.builtin.command:
-        cmd: sysctl --system
+      command: sysctl --system
 
     - name: Create 99-sonarqube.conf file
       file:
